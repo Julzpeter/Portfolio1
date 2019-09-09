@@ -359,7 +359,7 @@ footer {
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid lightblue;
 }
 
 #experience h2 {
@@ -631,7 +631,7 @@ footer {
 }
 
 .optional-section-block h4 {
-    color: #74808a;
+    color: lightblue;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -639,7 +639,7 @@ footer {
 
 .optional-section-block p, .optional-section-block ul {
     margin: 0 0 15px 0;
-    color: #74808a;
+    color: lightblue;
     font-size: 0.9em
 }
 
@@ -763,7 +763,7 @@ footer {
     }
 }
 .contacts {
-    background: #F7F7FF;
+    background: lightblue;
 }
 
 .contacts h3 {
@@ -773,4 +773,7 @@ footer {
     padding: .6rem 1em;
     ;
     letter-spacing: 4px;
+}
+.about p{
+font-size: 10px;
 }
