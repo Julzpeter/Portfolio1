@@ -130,7 +130,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    /* color: #3498db */
+    color: #3498db
 }
 
 #mobile-menu-close span {
@@ -205,12 +205,12 @@ footer {
     padding: 15px 25px;
     border: 3px solid #fff;
     border-radius: 30px;
-    transition: .5s ease all;
+    transition: .5s ease all
 }
 
 .btn-rounded-white:hover {
     color: #3498db;
-    background: white;
+    background: #fff;
     text-decoration: none
 }
 
@@ -251,7 +251,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(images/julie.jpg);
+    background: url(../images/lead-bg.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden
@@ -267,26 +267,23 @@ footer {
 }
 
 #lead-content h1, #lead-content h2 {
-    margin: 0;
-    
+    margin: 0
 }
 
 #lead-content h1 {
     color: #fff;
-    font-weight: 200;
-    font-size: 3em;
+    font-weight: 900;
+    font-size: 5em;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    line-height: 0.9em;
-    /* font-size: 10px; */
+    line-height: 0.9em
 }
 
 #lead-content h2 {
-    /* color: #a0cfee; */
+    color: #a0cfee;
     font-weight: 500;
     font-size: 2.25em;
-    margin-bottom: 15px;
-    color: white;
+    margin-bottom: 15px
 }
 
 #lead-overlay {
@@ -297,7 +294,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    /* background: rgba(33, 125, 187, 0.8); */
+    background: rgba(33, 125, 187, 0.8);
     z-index: 1
 }
 
@@ -351,15 +348,14 @@ footer {
 }
 
 #about p {
-    /* color: #74808a; */
-    margin: 0;
-    font-style: normal;
+    color: #74808a;
+    margin: 0
 }
 
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid lightblue;
+    border-bottom: 1px solid #dcd9d9
 }
 
 #experience h2 {
@@ -438,7 +434,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    /* background: #3498db; */
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -521,20 +517,16 @@ footer {
 }
 
 .project {
-    /* position: relative; */
+    position: relative;
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
     background: #fff;
-    border-radius: 4px;
+    border-radius: 4px
 }
 
 .project-image {
-    float: left;
-    /* position: relative; */
-    height: 100%;
-    width: 100%;
-
+    float: left
 }
 
 .project-info {
@@ -599,11 +591,77 @@ footer {
 
 #contact {
     padding: 50px 15px;
-    /* background: #3498db; */
+    background: #3498db;
     text-align: center
 }
 
+#contact h2 {
+    margin: 0 0 15px 0;
+    color: #fff;
+    font-weight: 500
+}
 
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto
+}
+
+#contact-form input, #contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 10px;
+    background: #1d6fa5;
+    color: #fff;
+    transition: .5s ease all
+}
+
+#contact-form input::-webkit-input-placeholder, #contact-form textarea::-webkit-input-placeholder {
+    color: #fff
+}
+
+#contact-form input:-moz-placeholder, #contact-form textarea:-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+#contact-form input::-moz-placeholder, #contact-form textarea::-moz-placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+#contact-form input:-ms-input-placeholder, #contact-form textarea:-ms-input-placeholder {
+    color: #fff
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    outline: none;
+    background: #16527a
+}
+
+#contact-form textarea {
+    height: 150px;
+    resize: none
+}
+
+#contact-form button {
+    display: block;
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+    color: #3498db;
+    font-weight: 700;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: .5s ease all
+}
+
+#contact-form button:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)
+}
 
 .optional-section {
     padding: 50px 15px;
@@ -631,7 +689,7 @@ footer {
 }
 
 .optional-section-block h4 {
-    color: lightblue;
+    color: #74808a;
     clear: both;
     font-weight: 500;
     margin: 0 0 15px 0
@@ -639,7 +697,7 @@ footer {
 
 .optional-section-block p, .optional-section-block ul {
     margin: 0 0 15px 0;
-    color: lightblue;
+    color: #74808a;
     font-size: 0.9em
 }
 
@@ -681,10 +739,10 @@ footer {
         top: auto
     }
     #lead-content h1 {
-        font-size: 8px;
+        font-size: 3em
     }
     #lead-content h2 {
-        font-size: 1.75em;
+        font-size: 1.75em
     }
     #about {
         text-align: center
@@ -762,18 +820,8 @@ footer {
         padding: 5px 10px
     }
 }
-.contacts {
-    background: lightblue;
+
+p a {
+    color: black;
 }
 
-.contacts h3 {
-    text-align: center;
-    text-transform: capitalize;
-    font-weight: 900;
-    padding: .6rem 1em;
-    ;
-    letter-spacing: 4px;
-}
-.about p{
-font-size: 10px;
-}
